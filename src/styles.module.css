@@ -1,9 +1,53 @@
-/* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+/* add css module styles here (optional) */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
   text-align: center;
+}
+
+.center-content {
+  display: inline-block;
+}
+
+button.btn {
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  padding: 11px;
+  border-radius: 5px;
+  min-width: 250px;
+  height: 45px;
+}
+
+button.primary {
+  border: 0px;
+  background: #3498db;
+  color: #ffffff;
+}
+button.default {
+  border: 2px solid rgb(157, 157, 163);
+}
+button.dashed {
+  border: 2px dotted rgb(157, 157, 163);
+}
+button.text {
+  border: 0px rgb(157, 157, 163);
+}
+button.link {
+  border: 0px rgb(157, 157, 163);
+  color: blue;
+}
+button:hover {
+  opacity: 0.9;
 }

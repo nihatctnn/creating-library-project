@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Button } from 'button-ui'
-import 'button-ui/dist/index.css'
+import { Button } from 'button-types-ui'
+import 'button-types-ui/dist/index.css'
 
 const App = () => {
   return (
